@@ -16,3 +16,27 @@ h1 {
 .justify-right {
     text-align: right;
 }
+
+@media screen and (min-width:480px) {
+
+    header {
+        background-color: red;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+
+    header {
+        background-color: blue;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+
+    header {
+        background-color: green;
+    }
+    
+}
